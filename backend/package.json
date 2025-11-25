@@ -1,0 +1,23 @@
+{
+  "name": "tinylink",
+  "version": "1.0.0",
+  "description": "TinyLink - minimal URL shortener (Express + Postgres)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
